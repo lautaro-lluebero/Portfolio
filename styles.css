@@ -1,4 +1,3 @@
-/* ====== RESET SIMPLE ====== */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
   font-size: 17px;
 }
 
-/* Paleta base azul-violeta */
 :root {
   --bg: #020617;
   --bg-elevated: rgba(15, 23, 42, 0.95);
@@ -49,7 +47,7 @@ img {
   display: block;
 }
 
-/* ====== LAYOUT GENERAL ====== */
+/* ====== LAYOUT ====== */
 .container {
   width: 100%;
   max-width: 1100px;
@@ -66,7 +64,7 @@ h1, h2, h3 {
   color: #f9fafb;
 }
 
-/* ====== HEADER / NAV ====== */
+/* ====== HEADER  ====== */
 header {
   position: sticky;
   top: 0;
@@ -323,7 +321,7 @@ header {
 /* ====== SOBRE MÍ ====== */
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1.1fr); /* texto izquierda, imagen derecha */
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.1fr); 
   gap: 2.5rem;
   align-items: center;
 }
@@ -337,7 +335,6 @@ header {
   margin-top: 1rem;
 }
 
-/* imagen rectangular */
 .about-photo {
   display: flex;
   justify-content: center;
@@ -346,13 +343,12 @@ header {
 .about-photo img {
   width: 100%;
   max-width: 360px;
-  border-radius: var(--radius-lg); /* bordes suaves */
+  border-radius: var(--radius-lg); 
   object-fit: cover;
   border: 1px solid rgba(148, 163, 184, 0.45);
   box-shadow: var(--shadow-soft);
 }
 
-/* lista de datos debajo del texto */
 .about-meta {
   margin-top: 1.4rem;
   padding-left: 0;
@@ -375,7 +371,7 @@ header {
   }
 
   .about-photo {
-    order: -1;          /* la imagen pasa arriba del texto en mobile */
+    order: -1;          
     margin-bottom: 0.5rem;
   }
 }
@@ -386,7 +382,6 @@ header {
     gap: 0.4rem;
   }
 }
-
 
 /* ====== HABILIDADES ====== */
 .skills-grid {
@@ -587,7 +582,6 @@ header {
   box-shadow: 0 8px 20px rgba(88, 80, 236, 0.3);
 }
 
-/* enlaces de contacto debajo del formulario */
 .contact-links {
   margin-top: 2.2rem;
   font-size: 0.95rem;
@@ -655,7 +649,7 @@ header {
   }
 }
 
-/* responsive: en móvil todo igual, solo un poco menos de espacio */
+/* responsive */
 @media (max-width: 600px) {
   .contact-wrapper {
     max-width: 100%;
@@ -739,7 +733,6 @@ footer .footer-inner {
   gap: 0.35rem;
 }
 
-/* versión mini de las pills que ya tenés */
 .tag.tag-sm {
   font-size: 0.72rem;
   padding: 0.2rem 0.7rem;
