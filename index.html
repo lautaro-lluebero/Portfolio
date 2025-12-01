@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio - Lautaro Lluebero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio de Lautaro Lluebero, desarrollador web especializado en crear experiencias modernas y centradas en el usuario.">
+  
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header>
+    <div class="container nav">
+      <a href="#inicio" class="nav-logo">Lautaro Lluebero</a>
+      <nav class="nav-links">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div>
+          <p class="hero-eyebrow">Software Developer</p>
+          <h1 class="hero-title">
+            Hola, soy <span>Lautaro Lluebero</span>.<br />
+          </h1>
+          <div class="hero-subtitle">
+            <p>
+              Desarrollador de Software Full-Stack, especializado en experiencias web modernas y de alto rendimiento.
+            </p>
+            <p>
+              Construyo aplicaciones rápidas y escalables, cuidando cada detalle desde el backend hasta la interfaz de usuario. Siempre listo para nuevos desafíos.
+            </p>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tag">Fullstack</span>
+            <span class="tag">Web Developer</span>
+            <span class="tag">Freelance</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              Ver proyectos
+            </a>
+            <a href="#contact" class="btn-secondary">
+              Contactarme
+            </a>
+          </div>
+
+          <!-- contacto rápido en el hero -->
+          <div class="hero-social">
+            <div class="hero-social-icons">
+              <a href="https://github.com/lautaro-lluebero" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              
+              <a href="mailto:lautarox57@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-avatar" aria-hidden="true">
+          <img src="img/avatar.png" alt="Avatar desarrollador" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SOBRE MÍ ====== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Quién soy</div>
+          <h2 class="section-title">Sobre mí</h2>
+        </div>
+        <div class="about-layout">
+          <div>
+            <div class="about-text">
+              <p>
+                Soy desarrollador de software y actualmente estoy cursando el último año de la Tecnicatura en Desarrollo de Software. Me interesa especialmente el desarrollo web y todo lo que tenga que ver con construir aplicaciones que realmente le resuelvan algo a las personas, no solo que se vean bien.
+              </p>
+              <p>
+                Me considero autodidacta: disfruto aprender cosas nuevas todo el tiempo, probar tecnologías, leer documentación oficial y mejorar proyectos existentes. Valoro mucho el trabajo en equipo, el feedback y la posibilidad de iterar hasta llegar a una solución prolija y mantenible.
+              </p>
+              <p>
+                Estoy abierto a nuevas oportunidades laborales y proyectos freelance donde pueda seguir creciendo como desarrollador, aportar valor al equipo y ganar experiencia en entornos reales de trabajo.
+              </p>
+            </div>
+
+            <ul class="about-meta">
+              <li><strong>Ubicación:</strong> Argentina</li>
+              <li><strong>Busco:</strong> Fullstack / Freelance</li>
+              <li><strong>Idiomas:</strong> Español e Inglés</li>
+            </ul>
+          </div>
+          <div class="about-photo">
+            <img src="img/sobre.png" alt="Ilustración relacionada con programación" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== HABILIDADES ====== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Tecnologías</div>
+          <h2 class="section-title">Habilidades</h2>
+          <p class="section-subtitle">
+            Herramientas y tecnologías con las que trabajo en el día a día.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Frontend -->
+          <div class="skill-card">
+            <div class="skill-title">Frontend</div>
+            <div class="skill-tags">
+              <span class="skill-chip">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS3</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+              </span>
+            </div>
+          </div>
+          
+          <!-- Backend -->
+          <div class="skill-card">
+            <div class="skill-title">Backend</div>
+            <div class="skill-tags">
+              <span class="skill-chip">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Base de datos -->
+          <div class="skill-card">
+            <div class="skill-title">Base de datos</div>
+            <div class="skill-tags">
+              <span class="skill-chip">
+                <i class="fa-solid fa-database"></i>
+                <span>MySQL</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Otras -->
+          <div class="skill-card">
+            <div class="skill-title">Otras</div>
+            <div class="skill-tags">
+              <span class="skill-chip">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-solid fa-chart-column"></i>
+                <span>Power BI</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-brands fa-trello"></i>
+                <span>Trello</span>
+              </span>
+              <span class="skill-chip">
+                <i class="fa-regular fa-note-sticky"></i>
+                <span>Notion</span>
+              </span>
+              
+              <span class="skill-chip">
+                <i class="fa-solid fa-people-group"></i>
+                <span>Scrum</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PROYECTOS ====== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">Proyectos destacados</div>
+          <h2 class="section-title">Proyectos</h2>
+          <p class="section-subtitle">
+            Algunos proyectos que muestran cómo trabajo.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <div class="project-image project-image--contain">
+              <img src="img/MendoTour.png" alt="MendoTour" />
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MendoTour</h3>
+              <p class="project-desc">
+                MendoTour es un sitio web turístico orientado a la promoción y difusión de los atractivos de la provincia de Mendoza, Argentina. Logrando brindar a turistas nacionales e internacionales una plataforma digital accesible, intuitiva y completa, donde puedan conocer y planificar su visita a Mendoza.
+              </p>
+              <p class="project-desc">
+                El sitio ofrece información detallada sobre rutas turísticas, restaurantes recomendados, bodegas, lugares de interés, paisajes destacados, reservas naturales, actividades recreativas, paseos guiados, hospedajes (hoteles, cabañas y alojamientos) y medios de transporte con el fin de ayudar al turista a organizar su viaje de manera eficiente.
+              </p>
+              <div class="project-tech">
+                <div class="project-tech-tags">
+                  <span class="tag tag-sm">Python</span>
+                  <span class="tag tag-sm">Flask</span>
+                  <span class="tag tag-sm">SQLAlchemy</span>
+                  <span class="tag tag-sm">MySQL</span>
+                </div>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/lautaro-lluebero/mendotour.git" target="_blank" rel="noopener noreferrer">Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="img/TeachMeUp.png" alt="TeachMeUp" />
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">TeachMeUp</h3>
+              <p class="project-desc">
+                TeachMeUp es una página web pensada para facilitar el encuentro entre alumnos y profesores particulares. Desde el menú podés navegar entre el inicio y el listado de profesores, filtrar por materia, zona y modalidad (virtual, presencial o mixta) y ver en cada tarjeta el nombre del docente, la asignatura, el nivel y el precio por hora.
+              </p>
+              <p class="project-desc">
+                El objetivo de la plataforma es que cualquier estudiante pueda encontrar rápidamente un profesor adecuado y empezar a tomar clases de manera simple y segura. Y por el lado de profesores poder brindar un espacio compartido donde puedan compartir materiales, experiencias e inquietudes con seguridad.
+              </p>
+              <div class="project-tech">
+                <div class="project-tech-tags">
+                  <span class="tag tag-sm">Python</span>
+                  <span class="tag tag-sm">Flask</span>
+                  <span class="tag tag-sm">MySQL</span>
+                  <span class="tag tag-sm">HTML</span>
+                  <span class="tag tag-sm">CSS</span>
+                  <span class="tag tag-sm">JavaScript</span>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/lautaro-lluebero/TeachMeUp.git" target="_blank" rel="noopener noreferrer">Código</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header section-header-center">
+          <div class="section-kicker">Trabajemos juntos</div>
+          <h2 class="section-title">Contacto</h2>
+          <p class="section-subtitle">
+            Si te interesa trabajar conmigo contáctame.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <p class="contact-intro">
+            Estoy abierto a nuevas oportunidades, colaboraciones y proyectos freelance.
+            Contame qué necesitás y vemos cómo puedo ayudarte.
+          </p>
+
+          <form class="contact-form" action="#">
+            <div class="form-field">
+              <label for="name">Nombre</label>
+              <input id="name" type="text" placeholder="Ingrese su nombre" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="tunombre@ejemplo.com" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Mensaje</label>
+              <textarea id="message" rows="4" placeholder="Contame sobre tu proyecto" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+              Enviar mensaje
+            </button>
+          </form>
+
+          <div class="contact-links contact-links-centered">
+            <p class="contact-intro-small">
+              Si preferís, también podés contactarme directamente por:
+            </p>
+            <ul class="contact-list">
+              <li>
+                <a href="mailto:lautarox57@gmail.com">
+                  <i class="fa-solid fa-envelope contact-icon"></i>
+                  <span>Email</span>
+                  <small>lautarox57@gmail.com</small>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2025 Lautaro Lluebero.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
